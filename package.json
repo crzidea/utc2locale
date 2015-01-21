@@ -6,6 +6,9 @@
   "scripts": {
     "test": "(cat ./test.txt; sleep 1; echo end;) | ./index.js"
   },
+  "bin": {
+    "utc2locale": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/crzidea/utc2locale.git"
