@@ -1,0 +1,19 @@
+{
+  "name": "utc2locale",
+  "version": "0.0.0",
+  "description": "Streaming approach from Date#toUTCString() to Date#toLocaleString().",
+  "main": "index.js",
+  "scripts": {
+    "test": "(cat ./test.txt; sleep 1; echo end;) | ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crzidea/utc2locale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crzidea/utc2locale/issues"
+  },
+  "homepage": "https://github.com/crzidea/utc2locale"
+}
