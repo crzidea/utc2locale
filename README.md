@@ -21,7 +21,7 @@ $ tail -f /path/to/your/log | utc2locale
 or
 
 ```
-utc2locale </path/to/your/log
+$ utc2locale </path/to/your/log
 ```
 
 ### Use with nodejs
