@@ -27,6 +27,6 @@ $ utc2locale </path/to/your/log
 ### Use with nodejs
 
 ```js
-var utc2locale = require('utc2locale');
-fileStream.pipe(utc2locale).pipe(process.stdout);
+var Transformer = require('utc2locale');
+fileStream.pipe(new Transformer).pipe(process.stdout);
 ```

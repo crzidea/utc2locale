@@ -1,6 +1,6 @@
 {
   "name": "utc2locale",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Streaming approach from Date#toUTCString() to Date#toLocaleString().",
   "main": "index.js",
   "scripts": {
