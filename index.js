@@ -42,6 +42,5 @@ Transformer.prototype._transform = function(chunk, encoding, callback) {
 if (!module.parent) {
   var transformer = new Transformer();
   process.stdin.pipe(transformer).pipe(process.stdout);
-} else {
-  module.export = Transformer();
 }
+module.exports = Transformer;
